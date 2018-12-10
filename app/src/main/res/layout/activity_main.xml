@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.myapplication.MainActivity">
+
+     <LinearLayout
+         android:layout_width="0dp"
+         android:layout_height="fill_parent"
+         android:background="#ffffff"
+         android:layout_weight="2"
+         >
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Hello World!"
+             app:layout_constraintBottom_toBottomOf="parent"
+             app:layout_constraintLeft_toLeftOf="parent"
+             app:layout_constraintRight_toRightOf="parent"
+             app:layout_constraintTop_toTopOf="parent" />
+         <TextView
+             android:id="@+id/t1"
+             android:textSize="10pt"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             />
+         <Button
+             android:id="@+id/but1"
+             android:text="确定"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+     </LinearLayout>
+     <LinearLayout
+         android:layout_width="0dp"
+         android:layout_height="fill_parent"
+         android:background="#ffffff"
+         android:layout_weight="2"
+         >
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerInParent="true"
+             android:shadowColor="#F9F900"
+             android:shadowDx="10.0"
+             android:shadowDy="10.0"
+             android:shadowRadius="3.0"
+             android:text="带阴影的TextView"
+             android:textColor="#4A4AFF"
+             android:textSize="10pt"
+             />
+     </LinearLayout>
+</LinearLayout>
